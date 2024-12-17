@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 @Controller
 public class HelloController {
 
-	@Value("${message.user.name}")
+	@Value("${user.name}")
 	private String name;
 
 	@RequestMapping("/")
